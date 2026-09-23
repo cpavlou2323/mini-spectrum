@@ -16,6 +16,8 @@ Double-click **MiniSpectrum.exe**. The widget appears in the bottom-right corner
 | Change fall speed, peak caps or always-on-top | Right-click it |
 | Close it | Right-click it and choose **Quit** |
 
+[![Download](https://img.shields.io/github/v/release/cpavlou2323/mini-spectrum?label=Download%20for%20Windows&style=for-the-badge)](https://github.com/cpavlou2323/mini-spectrum/releases/latest/download/MiniSpectrum.exe)
+
 ### Oscilloscope mode
 
 This works like an analogue oscilloscope in X-Y mode: the left channel moves the beam sideways and the right channel moves it up and down, and the trace glows and fades like real phosphor. Ordinary music makes shifting, tangled shapes. Search YouTube for "oscilloscope music" and those tracks draw actual pictures. When nothing is playing, it shows a resting dot in the middle.
