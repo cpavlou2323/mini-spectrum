@@ -16,7 +16,8 @@ Double-click **MiniSpectrum.exe**. The widget appears in the bottom-right corner
 | Change fall speed, peak caps or always-on-top | Right-click it |
 | Close it | Right-click it and choose **Quit** |
 
-[![Download](https://img.shields.io/github/v/release/cpavlou2323/mini-spectrum?label=Download%20for%20Windows&style=for-the-badge)](https://github.com/cpavlou2323/mini-spectrum/releases/latest/download/MiniSpectrum.exe)
+## Latest Release
+**[Download Mini spectrum for Windows](https://github.com/cpavlou2323/mini-spectrum/releases/latest/download/MiniSpectrum.exe)** — one file, nothing to install. Or browse [all releases](https://github.com/cpavlou2323/mini-spectrum/releases).
 
 ### Oscilloscope mode
 
