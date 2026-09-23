@@ -4,6 +4,9 @@ A tiny always-on-top spectrum analyser for whatever your Windows PC is playing: 
 
 It listens to your speaker output through Windows' loopback, so there's nothing to set up and nothing is recorded or saved.
 
+## Latest Release
+**[Download Mini spectrum for Windows](https://github.com/cpavlou2323/mini-spectrum/releases/latest/download/MiniSpectrum.exe)** — Or browse [all releases](https://github.com/cpavlou2323/mini-spectrum/releases).
+
 ## Using it
 
 Double-click **MiniSpectrum.exe**. The widget appears in the bottom-right corner of your screen.
@@ -15,9 +18,6 @@ Double-click **MiniSpectrum.exe**. The widget appears in the bottom-right corner
 | Make it bigger or smaller | Scroll the mouse wheel over it |
 | Change fall speed, peak caps or always-on-top | Right-click it |
 | Close it | Right-click it and choose **Quit** |
-
-## Latest Release
-**[Download Mini spectrum for Windows](https://github.com/cpavlou2323/mini-spectrum/releases/latest/download/MiniSpectrum.exe)** — Or browse [all releases](https://github.com/cpavlou2323/mini-spectrum/releases).
 
 ### Oscilloscope mode
 
