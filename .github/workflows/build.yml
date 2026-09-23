@@ -1,0 +1,37 @@
+name: Build Windows app
+
+on:
+  workflow_dispatch:
+  release:
+    types: [published]
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install build tools
+        run: python -m pip install --upgrade pip pyinstaller numpy pyaudiowpatch
+      - name: Build MiniSpectrum.exe
+        run: >
+          python -m PyInstaller --noconfirm --clean --onefile --windowed
+          --name MiniSpectrum
+          --icon mini_spectrum/icon.ico
+          --add-data "mini_spectrum/icon.ico;mini_spectrum"
+          --collect-all pyaudiowpatch
+          run_mini_spectrum.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: MiniSpectrum
+          path: dist/MiniSpectrum.exe
+      - name: Attach to release
+        if: github.event_name == 'release'
+        uses: softprops/action-gh-release@v2
+        with:
+          files: dist/MiniSpectrum.exe
