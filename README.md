@@ -4,6 +4,11 @@ A tiny always-on-top spectrum analyser for whatever your Windows PC is playing: 
 
 It listens to your speaker output through Windows' loopback, so there's nothing to set up and nothing is recorded or saved.
 
+## Download
+
+### [Download MiniSpectrum.exe](https://github.com/cpavlou2323/mini-spectrum/releases/latest/download/MiniSpectrum.exe) - .exe for Windows 10 or 11
+[All releases](https://github.com/cpavlou2323/mini-spectrum/releases) and the [website](https://cpavlou2323.github.io/mini-spectrum/).
+
 ## Using it
 
 Double-click **MiniSpectrum.exe**. The widget appears in the bottom-right corner of your screen.
